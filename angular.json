@@ -86,10 +86,22 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            
+              "styles": [
+                "/assets/templateAdminlte/dist/css/adminlte.min.css",
+
+                "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.css",
+              "/assets/templateAdminlte/plugins/fontawesome-free/css/all.min.css",
+              "/assets/templateAdminlte/dist/css/adminlte.min.css",
+              "/assets/templateAdminlte/plugins/bootstrap/css/bootstrap.min.css"
+
+              ],
+            "scripts": [
+              "/assets/templateAdminlte/plugins/jquery/jquery.min.js",
+              "/assets/templateAdminlte/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "/assets/templateAdminlte/dist/js/adminlte.min.js"
+            ]
           }
         }
       }
