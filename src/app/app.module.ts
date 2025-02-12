@@ -8,6 +8,8 @@ import { AcceuilComponent } from './pages/acceuil/acceuil.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { AcceuilLayoutComponent } from './layouts/acceuil-layout/acceuil-layout.component';
 import { RouterModule } from '@angular/router';
+import { ListIntershipOffersComponent } from './pages/IntershipOffers/list-intership-offers/list-intership-offers.component';
+import { CreateIntershipOffersComponent } from './pages/IntershipOffers/create-intership-offers/create-intership-offers.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { RouterModule } from '@angular/router';
     AcceuilLayoutComponent,
     DashboardLayoutComponent,
     AcceuilComponent,
-    DashboardComponent
+    DashboardComponent,
+    ListIntershipOffersComponent,
+    CreateIntershipOffersComponent
   ],
   imports: [
     BrowserModule,
