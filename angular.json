@@ -25,9 +25,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "src/assets/landing/css/templatemo-edu-meeting.css",
+                 "src/assets/landing/css/flex-slider.css",
+                  "src/assets/landing/css/fontawesome.css",
+                   "src/assets/landing/css/lightbox.css",
+                    "src/assets/landing/css/owl.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
