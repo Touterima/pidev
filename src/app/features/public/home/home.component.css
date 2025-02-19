@@ -1,0 +1,27 @@
+.owl-service-item .item {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .owl-service-item .icon img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .owl-service-item .down-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .owl-service-item .down-content p {
+    font-size: 14px;
+    color: #777;
+  }
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: static; /* Reset any positioning */
+    float: none; /* Ensure no floating */
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+  }
